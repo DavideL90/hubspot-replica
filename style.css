@@ -88,8 +88,10 @@ nav #list{
 
 .centercont{
   max-width: 1080px;
-  height:594px;
   margin: 0 auto;
+}
+.first{
+  height:594px;
 }
 .leftside{
   float: left;
@@ -166,4 +168,58 @@ nav #list{
   content: "";
   display: table;
   clear: left;
+}
+
+/* Secondo blocco orizzontale */
+
+.orange{
+  background-image: linear-gradient(180deg,#f07155,#ff8f59);
+  text-align: center;
+}
+.orange img{
+  width: 130px;
+  padding-top: 98px;
+}
+.orange h1{
+  font-size: 2.75em;
+  color: white;
+}
+.orange #description{
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left:240px;
+  margin-right:240px;
+  line-height: 1.6;
+}
+#listcontainer{
+  margin-bottom: 50px;
+}
+.whiteblock{
+  display: inline-block;
+  background-color: #F2F5F8;
+  margin-top:50px;
+  text-align: center;
+  padding: 30px 20px;
+  width:240px;
+  height: 160px;
+  border: 1px solid rgb(66, 91, 118);
+}
+.prova{
+  position: relative;
+  bottom: 20%;
+}
+.whiteblock h4{
+  font-size: 16px;
+}
+.whiteblock span{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Terzo contenitore orizzontale */
+
+.circle{
+  background-color: #f2f5f8;
+  background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg");
 }
