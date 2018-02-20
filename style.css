@@ -8,12 +8,15 @@ body{
   height: 100vh;
 }
 
-/* header e nav */
+/* Header */
 
 header{
   background-color: #F2F5F8;
   border-bottom: 1px solid #CBD6E2;
 }
+
+/* Subheader */
+
 #subheader{
   max-width: 1080px;
   margin: 0 auto;
@@ -48,4 +51,33 @@ header{
   color: white;
   padding: 10px 25px;
   border-radius: 2px;
+}
+
+/* Nav */
+
+nav{
+  max-width: 1080px;
+  margin: 0 auto;
+  color: #2D3E50;
+  font-size: 16px;
+  position: relative;
+  padding: 22px 4px;
+  font-family: AvenirNext,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+nav #list{
+  display:inline-block;
+  position: absolute;
+  right: 0;
+}
+#list *{
+  display: inline-block;
+  color: rgb(45, 62, 80);
+  font-weight: 600;
+  letter-spacing: 0.16px;
+}
+#list .listitem{
+  padding: 0 15px;
+}
+.listitem span{
+  padding: 0 10px;
 }
