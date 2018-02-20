@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: AvenirNext,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 body{
   width: 100vw;
@@ -59,15 +60,16 @@ nav{
   max-width: 1080px;
   margin: 0 auto;
   color: #2D3E50;
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
   padding: 22px 4px;
-  font-family: AvenirNext,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 nav #list{
   display:inline-block;
   position: absolute;
   right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 #list *{
   display: inline-block;
@@ -80,4 +82,40 @@ nav #list{
 }
 .listitem span{
   padding: 0 10px;
+}
+
+/* Impostazioni dei blocchi orizzontali */
+
+.centercont{
+  max-width: 1080px;
+  height:650px;
+  margin: 0 auto;
+}
+.leftside{
+  float: left;
+  width: 50%;
+}
+.rightside{
+  float: right;
+  width: 50%;
+  position: relative;
+}
+.centercont:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Primo blocco orizzontale */
+
+.grey{
+  background-color: #F2F5F8;
+}
+.grow h1{
+  font-size: 45px;
+}
+.grey img{
+  width: 460px;
+  padding-top: 15px;
+  position: absolute;
+  right: 0;
 }
