@@ -88,16 +88,19 @@ nav #list{
 
 .centercont{
   max-width: 1080px;
-  height:650px;
+  height:594px;
   margin: 0 auto;
 }
 .leftside{
   float: left;
   width: 50%;
+  height:100%;
+  position: relative;
 }
 .rightside{
   float: right;
   width: 50%;
+  height:100%;
   position: relative;
 }
 .centercont:after{
@@ -105,17 +108,62 @@ nav #list{
   display: table;
   clear: both;
 }
+
 /* Primo blocco orizzontale */
 
+.leftside #grow {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .grey{
   background-color: #F2F5F8;
 }
-.grow h1{
-  font-size: 45px;
+#grow h1{
+  font-size: 3em;
+  font-weight: 700;
+  color: rgb(45, 62, 80);
+  letter-spacing: 1px;
+  padding-bottom: 25px;
 }
-.grey img{
+.grey .rightside img{
   width: 460px;
   padding-top: 15px;
   position: absolute;
   right: 0;
+}
+#grow div{
+  text-align: left;
+  font-size: 20.8px;
+  font-weight: 400;
+  color: rgb(45, 62, 80);
+  padding-bottom:20px;
+}
+#buttongrow{
+  padding-top: 20px;
+}
+#grow button{
+  float: left;
+  border: none;
+  background-color: rgb(255, 122, 89);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 25px 50px;
+  border-radius: 3px;
+  margin-right: 2%;
+}
+#grow p{
+  margin-right:20%;
+  font-size: 12px;
+  text-align: left;
+}
+#grow p > img{
+  width: 15px;
+}
+#buttongrow:after{
+  content: "";
+  display: table;
+  clear: left;
 }
