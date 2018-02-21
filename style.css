@@ -4,10 +4,6 @@
   padding: 0;
   font-family: AvenirNext,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
-body{
-  width: 100vw;
-  height: 100vh;
-}
 
 /* Header */
 
@@ -18,7 +14,6 @@ header{
   top: 0;
   z-index: 10;
 }
-
 /* Subheader */
 
 #subheader{
@@ -45,6 +40,15 @@ header{
   top: 50%;
   transform: translateY(-50%);
 }
+#subheader span:hover{
+  color: #00a4bd;
+}
+#subheader span:nth-of-type(5), .fa-search{
+  color: black;
+}
+#subheader #underlined:hover{
+  text-decoration: underline;
+}
 #subleft *{
     padding:0 15px;
 }
@@ -56,7 +60,9 @@ header{
   padding: 10px 25px;
   border-radius: 2px;
 }
-
+#subleft button:hover{
+  filter: brightness(1.1);
+}
 /* Nav */
 
 nav{
@@ -79,6 +85,9 @@ nav #list{
   color: rgb(45, 62, 80);
   font-weight: 600;
   letter-spacing: 0.16px;
+}
+#list .listitem:hover{
+  color: #00a4bd;
 }
 #list .listitem{
   padding: 0 15px;
@@ -160,6 +169,9 @@ nav #list{
   border-radius: 3px;
   margin-right: 2%;
 }
+#grow button:hover{
+  filter: brightness(1.1);
+}
 #grow p{
   margin-right:20%;
   font-size: 12px;
@@ -208,7 +220,17 @@ nav #list{
   padding: 30px 20px;
   width:240px;
   height: 160px;
-  border: 1px solid rgb(66, 91, 118);
+}
+.whiteblock:nth-child(2){
+  border-left: 1px solid rgb(123, 141, 160);
+  border-right: 1px solid rgb(123, 141, 160);
+}
+.whiteblock:nth-child(3){
+  border-right: 1px solid rgb(66, 91, 118);
+}
+.whiteblock:hover{
+  filter: brightness(1.1);
+  transition: 0.5s;
 }
 .prova{
   position: relative;
@@ -258,6 +280,9 @@ nav #list{
   margin-top: 35px;
   margin-left: 20px;
 }
+.circle button:hover{
+  filter: brightness(1.1);
+}
 .circle #features{
   display: inline-block;
   padding-left: 20px;
@@ -294,6 +319,7 @@ nav #list{
 
 /* Per il quinto contenitore ho utilizzato interamente la classe circle */
 /* Sesto contenitore */
+
 .whiteline .more{
   width:60%;
 }
@@ -327,6 +353,9 @@ nav #list{
   position: absolute;
   right: 0;
   margin-top: 130px;
+}
+.whiteline button:hover{
+  filter: brightness(1.1);
 }
 
 /* Settimo contenitore  */
@@ -464,6 +493,9 @@ nav #list{
   padding: 25px 50px;
   border-radius: 3px;
 }
+.superwhite #smallbox button:hover{
+  filter: brightness(1.1);
+}
 .superwhite #smallbox small{
   padding-top: 25px;
   display: block;
@@ -471,13 +503,6 @@ nav #list{
   font-size: 12px;
   font-weight: 400;
 }
-
-/* .superwhite .rightside #pink{
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 150px;
-  z-index: 0;
-} */
 .superwhite .rightside #girl{
   width:350px;
   background-color: #f2547d;
@@ -534,6 +559,10 @@ footer button{
   color: white;
   font-size: 14px;
   padding: 8px 40px;
+}
+footer button:hover{
+  filter: brightness(1.4);
+  transition: 0.3s;
 }
 footer #iconlist{
   text-align: right;
