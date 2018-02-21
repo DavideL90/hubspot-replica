@@ -430,5 +430,66 @@ nav #list{
 }
 .rightside .logos{
   display: inline-block;
+  width: 150px;
   padding: 20px;
+}
+.superwhite #smallbox{
+  margin-right: 100px;
+}
+.superwhite .leftside #smallbox h2{
+  display: inline-block;
+  font-size: 32px;
+  color: rgb(45, 62, 80);
+  padding-right: 140px;
+  margin-top: 250px;
+}
+.superwhite .leftside #smallbox p {
+  display: inline-block;
+  color: rgb(66, 91, 118);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 25px 0;
+  line-height: 1.6;
+}
+.superwhite #smallbox button{
+  display: inline-block;
+  border: none;
+  background-color: rgb(255, 122, 89);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 25px 50px;
+  border-radius: 3px;
+}
+.superwhite #smallbox small{
+  padding-top: 25px;
+  display: block;
+  color: rgb(124, 152, 182);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* .superwhite .rightside #pink{
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 150px;
+  z-index: 0;
+} */
+.superwhite .rightside #girl{
+  width:350px;
+  background-color: #f2547d;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 150px;
+  position: relative;
+  z-index: 0;
+}
+.superwhite .rightside #imagecircle{
+  display: inline-block;
+  position: relative;
+  margin-top: -30px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+  z-index: 5;
 }
