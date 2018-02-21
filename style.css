@@ -340,7 +340,7 @@ nav #list{
   font-size: 32px;
   font-weight: 700;
 }
-.green p{
+.green #text{
   text-align: center;
   padding: 0 190px;
   padding-top: 20px;
@@ -348,4 +348,52 @@ nav #list{
   line-height: 1.375;
   color: white;
   font-size: 16px;
+}
+.green #tablewrapper > div{
+  display: inline-block;
+  text-align: center;
+  padding:30px;
+}
+.green #tablewrapper > div:nth-child(-n+3){
+  border-right: 1px solid #fff;
+}
+.green #tablewrapper > div:nth-child(-n+4){
+  border-bottom: 1px solid #fff;
+}
+.green #tablewrapper > div:nth-child(n+5){
+  border-right: 1px solid #fff;
+}
+.green #tablewrapper > div:last-child{
+  border-right:none;
+}
+#tablewrapper .smalltitle{
+  padding: 0 30px;
+}
+#tablewrapper .icon{
+  display: inline-block;
+  padding: 15px 0;
+}
+
+#tablewrapper h2{
+  font-size: 40px;
+  color: white;
+  position: relative;
+  display:inline-block;
+}
+#tablewrapper h2:after{
+  display: inline-block;
+  content:"+";
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#tablewrapper #notplus:after{
+  content:"";
+}
+#tablewrapper .smalltitle p{
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
 }
