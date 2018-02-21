@@ -349,10 +349,13 @@ nav #list{
   color: white;
   font-size: 16px;
 }
+.green #tablewrapper{
+  margin-bottom: 100px;
+}
 .green #tablewrapper > div{
   display: inline-block;
   text-align: center;
-  padding:30px;
+  padding:30px 35px;
 }
 .green #tablewrapper > div:nth-child(-n+3){
   border-right: 1px solid #fff;
@@ -396,4 +399,36 @@ nav #list{
   font-size: 14px;
   color: white;
   font-weight: 400;
+}
+
+/* Ottavo contenitore */
+
+#little{
+  float: left;
+  width: 40%;
+}
+#large{
+  float: right;
+  width: 60%;
+}
+.superwhite #littlecontainer{
+  display: inline-block;
+  margin-right:200px;
+}
+.superwhite .leftside h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(45, 62, 80);
+  margin-top: 150px;
+}
+.leftside h2 + p{
+  font-size: 19.2px;
+  display: inline-block;
+}
+.rightside #logoscontainer{
+  margin-top: 120px;
+}
+.rightside .logos{
+  display: inline-block;
+  padding: 20px;
 }
