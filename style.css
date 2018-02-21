@@ -89,9 +89,7 @@ nav #list{
 .centercont{
   max-width: 1080px;
   margin: 0 auto;
-}
-.first{
-  height:594px;
+  color: #425B76;
 }
 .leftside{
   float: left;
@@ -113,6 +111,9 @@ nav #list{
 
 /* Primo blocco orizzontale */
 
+.first{
+  height:594px;
+}
 .leftside #grow {
   display: inline-block;
   position: absolute;
@@ -199,6 +200,7 @@ nav #list{
   display: inline-block;
   background-color: #F2F5F8;
   margin-top:50px;
+  margin-bottom: 50px;
   text-align: center;
   padding: 30px 20px;
   width:240px;
@@ -222,4 +224,54 @@ nav #list{
 .circle{
   background-color: #f2f5f8;
   background-image: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg");
+}
+.circle img{
+  margin: 160px 0;
+}
+.circle .rightside h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 150px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.circle .rightside p{
+  text-align: left;
+  line-height: 1.65;
+  font-size: 1em;
+  padding-right: 130px;
+  padding-left: 20px;
+}
+.circle .rightside button{
+  border: none;
+  background-color: rgb(255, 122, 89);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 25px 50px;
+  border-radius: 3px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+.circle .rightside #features{
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 0px;
+  font-size: 13px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.circle .rightside hr{
+  display: inline-block;
+  width: 270px;
+  margin-left: 8px;
+  margin-bottom: 2px;
+}
+.circle .rightside  #contacts {
+  font-size: 13px;
+}
+#contacts span:not(:first-child){
+  display: inline-block;
+  padding-left: 20px;
 }
