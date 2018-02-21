@@ -490,6 +490,93 @@ nav #list{
   position: relative;
   margin-top: -30px;
   margin-left: 150px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   z-index: 5;
+}
+
+/* Inizio Footer */
+
+footer{
+  background-color: #2d3e50;
+}
+footer .containerofthelist{
+  position: relative;
+  margin-bottom: 50px;
+}
+footer #generalist > li{
+  margin-top: 50px;
+  padding: 0 50px;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  list-style: none;
+  line-height: 2.5;
+}
+footer #generalist > li:first-child{
+  padding-left: 0;
+}
+footer #generalist .sublist{
+  font-size: 14px;
+  font-weight: 400;
+  list-style: none;
+}
+footer button{
+  position: absolute;
+  right: 0;
+  margin-top: 25px;
+  background-color: rgb(66, 91, 118);
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  padding: 8px 40px;
+}
+footer #iconlist{
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+footer #iconlist > li{
+  display: inline-block;
+  list-style: none;
+  color: white;
+  padding: 20px 5px;
+}
+footer #languages{
+  text-align: center;
+  color: white;
+}
+footer #languages span{
+  display: inline-block;
+  padding: 0 15px;
+}
+footer hr{
+  margin-top: 60px;
+}
+footer #legal #copyrightlogo{
+  float: left;
+}
+footer #legal img{
+  margin-top:30px;
+  width: 100px;
+}
+footer #legal small{
+  margin-top: 10px;
+  display: block;
+  color: white;
+}
+footer #legal #privacy{
+  float: right;
+  color: white;
+  margin-top: 30px;
+}
+footer #legal #privacy span:first-child{
+  display: inline-block;
+  padding-right: 30px;
+}
+#legal:after{
+  content: "";
+  display: table;
+  clear: both;
 }
